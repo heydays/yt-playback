@@ -29,8 +29,6 @@ async function callYtApi(searchQuery, resultsPerPage, pageToken) {
       console.log('Error!:', error)
     })
 
-  console.log(response.json())
-
   return await response.json()
 }
 

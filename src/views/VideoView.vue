@@ -1,7 +1,6 @@
 <script setup>
-import {ref, toRef, onMounted, onUnmounted} from 'vue'
+import {ref, toRef, onMounted} from 'vue'
 import YouTube from 'vue3-youtube'
-import {watchDebounced} from "@vueuse/core";
 
 const props = defineProps({
   videoId: String
