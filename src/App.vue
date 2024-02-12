@@ -1,10 +1,8 @@
 <script setup>
-import logo from './assets/logo.svg'
-import logoImage from './assets/logo-png.png'
+import logoSvg from './assets/logo.svg'
+import logoPng from './assets/logo-png.png'
 import {RouterLink, RouterView} from 'vue-router'
 
-const logoSvg = logo
-const logoPng = logoImage
 </script>
 
 
